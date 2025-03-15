@@ -83,13 +83,24 @@
                 <div class="container" style="height: 100px;"   >
                     <div class="row">
                         <div class="col-sm-3">
+                            <style>
+                                @media screen and (max-width: 768px) {
+                                    .logo-area img {
+                                        width: 70% !important;
+                                        max-width: 300px !important;
+                                        position: unset !important;
+                                    }
+                                    .navbar-collapse {
+                                        background-color: white;
+                                    }
+                                }
+                            </style>
                             <div class="logo-area">
                                 <a href="index.html"><img src="images/logo.png" alt="logo" style="width: 420px; position: fixed;"></a>
-                              
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <nav class="nav navbar">
+                            <nav class="nav navbar" >
                                 <div class="navbar-header">
                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                        <span class="sr-only">Toggle navigation</span>
@@ -103,9 +114,7 @@
                                         <li><a href="#rs-header">Home</a></li>
                                         <li><a href="#rs-about">About Us</a></li>
                                         <li><a href="#rs-services">Programs</a></li>
-                                        <li><a href="#rs-mission">Mission & Vision</a></li>
-                                        <li><a href="#rs-faq">FAQ</a></li>
-                                        <li><a href="./research.html" onclick="window.location.href='./research.html'">Research</a></li>
+                                        <li><a href="./research.html" onclick="window.location.href='./research.html'">Knowledge Base</a></li>
                                         <li><a href="#rs-contact">Contact</a></li>
                                     </ul>                                    
                                 </div>
@@ -877,7 +886,7 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
                             <div class="copyright">
-                                <p>&copy; 2024 <a href="#">Iqtisad</a>. All Rights Reserved.</p>
+                                <p>Designed & Developed by <a href="https://bilimtechnologies.com/">Bilim Technologies</a></p>
                             </div>
                         </div>
                         <div class="col-md-8 col-sm-6">
